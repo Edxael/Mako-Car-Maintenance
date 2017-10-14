@@ -6,14 +6,19 @@ import Footer from './Footer.jsx';
 
 class Template extends React.Component {
   render() {
+    const mainSty = { backgroundColor: "gray", height: "100vh", margin: "0" }
+    const wrapper = { height: "100%" }
     return(
-      <div>
-        <div>Template.jsx</div>
-        <ul>
-          <li><Header /></li>
-          <li><RoutingComp /></li>
-          <li><Footer /></li>
-        </ul>
+      <div style={mainSty}>
+
+        <Header />
+
+        <div style={wrapper}>
+          <RoutingComp />
+        </div>
+
+        <Footer />
+
       </div>
     )
   }

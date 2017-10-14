@@ -7,10 +7,7 @@ class IndexJS extends React.Component {
   render() {
     return(
       <div>
-        <div> -- Index.js --</div>
-        <ul>
-          <li><Template /></li>
-        </ul>
+        <Template />
       </div>
     )
   }
