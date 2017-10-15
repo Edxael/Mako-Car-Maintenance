@@ -15,7 +15,7 @@ class RoutingComp extends React.Component {
   render() {
     let brSty = { width: "80%" }
     let MainDiv = { textAlign: "center", backgroundColor: "gray", padding: "20px", height: "100vh" }
-    let pageSty = { border: "2px solid white", backgroundColor: "rgba(254, 254, 254, 0.5)", width: "75%", height: "100vh", margin: "0px auto", padding: "15px" }
+    let pageSty = { border: "2px solid white", backgroundColor: "rgba(254, 254, 254, 0.5)", width: "75%", height: "70vh", margin: "0px auto", padding: "15px" }
     let btn1 = { backgroundColor: "black", marginRight: "3px" }
     let bar1 ={ width: "100%", marginTop: "15px", display: "flex", justifyContent: "center" }
     return(
