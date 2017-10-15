@@ -6,14 +6,14 @@ import Footer1 from './Footer.jsx';
 
 class Template extends React.Component {
   render() {
-    const mainSty = { backgroundColor: "rgb(128, 180, 255)", height: "50%", margin: "0", paddingTop: "10px" }
-    const wrapper = { height: "20%" }
+    const mainSty = { backgroundColor: "rgb(128, 180, 255)", margin: "0", padding: "5px 0px 10px 0px", textAlign: "center" }
+
     return(
       <div style={mainSty}>
 
         <Header />
 
-        <div style={wrapper}>
+        <div>
           <RoutingComp />
         </div>
 
