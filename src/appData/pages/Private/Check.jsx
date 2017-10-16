@@ -1,5 +1,5 @@
 import React from 'react';
-import carPic from '../img/check.jpg';
+import carPic from '../../img/check.jpg';
 
 class Week extends React.Component {
   render() {

@@ -1,5 +1,5 @@
 import React from 'react';
-import carPic from '../img/cmb.jpg';
+import carPic from '../../img/cmb.jpg';
 
 class Home extends React.Component {
   render() {
