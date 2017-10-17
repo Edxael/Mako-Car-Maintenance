@@ -5,8 +5,9 @@ import Template from './appData/comps/Template.jsx';
 
 class IndexJS extends React.Component {
   render() {
+    const mainSty = { backgroundColor: "rgb(128, 180, 255)", height: "100vh" }
     return(
-      <div>
+      <div style={mainSty} >
         <Template />
       </div>
     )

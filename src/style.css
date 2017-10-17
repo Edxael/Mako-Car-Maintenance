@@ -2,3 +2,9 @@ body{
   background-color: gray;
   tex
 }
+
+
+
+const GralSty = { backgroundColor: "gray" 
+
+style={GralSty}

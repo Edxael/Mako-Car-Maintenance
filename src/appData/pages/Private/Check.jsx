@@ -1,9 +1,12 @@
 import React from 'react';
 import carPic from '../../img/check.jpg';
+const picSty = { margin: "0px auto", display: "block", width: "100%", height: "auto"}
+
 
 class Week extends React.Component {
   render() {
     const pSty = { textAlign: "left" }
+    const picSty = { margin: "0px auto", display: "block", width: "100%", height: "auto" }
     const labelSty = { margin: "0px auto", display:"block", padding: "15px 0px 0px 15px" }
     const inputSty = { width: "100%" }
     const radioDiv = { padding: "15px 0px 0px 15px" }
@@ -13,7 +16,8 @@ class Week extends React.Component {
     return(
       <div>
         <h1>Montly Check-List</h1>
-        <img src={carPic} alt="Miss"/>
+        <img style={picSty} src={carPic} alt="Miss"/>
+        <br/>
         <p style={pSty} >Here is a basic checklist that you can use to take care of your vehicle, you can print the PDF version to use when working on your car and then come back and save the data on the server. </p>
         <p style={pSty} >Remember that all cars are different and this list is just a start point, and your car might need some special and unique love, make sure to read the owners manual to complement this list.</p>
 

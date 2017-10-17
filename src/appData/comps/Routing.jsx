@@ -65,7 +65,6 @@ class RoutingComp extends React.Component {
               </div>
             </Router>
 
-
       </div>
     )
   }
